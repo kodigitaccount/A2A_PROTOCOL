@@ -1,0 +1,93 @@
+^^^ A2A PROTOCOL WORKSHOP ==>
+================
+Live Link --> https://www.youtube.com/watch?v=dWjBEnKzdxc
+================
+
+1- my introduction 
+	https://www.linkedin.com/in/kodi-prakash-senapati-a95a60182/
+	
+2- Audience - 
+
+3- Time duration - 2 hr 
+		30 min -- LLM, MCP, AGENTS , A2A 
+		
+LLM -- brain 
+
+AGENTS  -- brain interact with tools(memory) to work some certain task
+		can you book the ticket planed trip 
+				single agent 
+				multi agents 
+	I will share all the link this would be clear 
+
+MCP -- mcp client interact with local server & remote serv using help of llm to perform the files
+		share the link -- after the class ( watch it ) mcp 
+		
+AGENTIC AI FRAMEWORK
+		phidata (AGNO AGI)
+		smolagents
+		crew ai
+		langchain agent
+		langgraph
+		n8n
+		
+you able to heard future agent whihc i listed 
+
+GEN AI 
+LLM 
+AGENTS 
+MCP -- ONE LLM 
+A2A 
+---
+---
+
+	
+4- 
+- open a2a github 
+- vs code
+- create new folder 
+- activeate virtual environment
+- clone github code to vs code under myenv file
+- a2a\samples\python\agents 
+		view crewai -- google adk - langgraph 
+- pip install dotenv
+- get you api key 
+			google - google ai studion -- generat api key
+				test the api key 
+	
+api key -- AI8Pjm_xrE3pGRfoI 
+
+=== API TESTING 
+import google.generativeai as genai
+
+genai.configure(api_key="A3pGRfoI")
+
+#model = genai.GenerativeModel("gemini-2.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash-preview-04-17") # This is the latest model as of 2024-04-17
+
+response = model.generate_content("what is A2A protocol vs MCP protocol?")
+print(response.text)
+======
+
+
+crew ai -- uv run . -- http://localhost:10001 (crewai)
+google-adk -- uv run . -- http://localhost:10002  (google-adk)
+langgraph -- uv run . ---  http://localhost:10000 (langgraph) 
+demo - ui -- uv run main.py -- http://0.0.0.0:12000 
+
+
+
+	
+		
+
+
+
+
+Any learner has any query i will talk later of the class
+audience can l
+fresher
+exper
+corporat
+leader 
+agentic era 
+
+===
